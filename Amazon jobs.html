@@ -1,0 +1,232 @@
+<html><head><base href="/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amazon Careers | Jobs Available</title>
+<style>
+:root {
+  --amazon-blue: #232f3e;
+  --amazon-orange: #ff9900;
+  --popular-pink: #ff69b4;
+  --popular-purple: #8a2be2;
+  --popular-gradient: linear-gradient(45deg, var(--popular-pink), var(--popular-purple));
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background: #f0f0f0;
+}
+
+.header {
+  background: var(--popular-gradient);
+  padding: 1rem;
+  color: white;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.logo {
+  width: 120px;
+  fill: white;
+  filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.3));
+}
+
+.hero {
+  background: linear-gradient(rgba(138,43,226,0.8), rgba(255,105,180,0.8)),
+              url('https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?auto=format&fit=crop&w=1920&q=80');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 6rem 2rem;
+  text-align: center;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: linear-gradient(transparent, #f0f0f0);
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.category-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.category-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: var(--popular-gradient);
+}
+
+.category-card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+button {
+  background: var(--popular-gradient);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 200px;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(138,43,226,0.4);
+}
+
+.benefits {
+  background: white;
+  padding: 4rem 1rem;
+}
+
+.footer {
+  background: var(--popular-gradient);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+@keyframes gradientFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradientFlow 5s ease infinite;
+}
+</style>
+</head>
+<body>
+  <header class="header">
+    <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 602 124">
+      <path d="M374.003,26.24c-34.394,25.404-84.437,38.891-127.497,38.891c-60.272,0-114.488-22.237-155.557-59.24
+      C89.925,4.071,90.985,5.021,92.136,5.021c44.485,0,85.491,27.375,113.084,71.714c-22.791-10.998-47.832-16.901-73.819-16.901
+      c-35.643,0-68.935,11.291-95.278,30.943c-1.407,1.037-1.136,2.473,0.531,1.828c32.644-12.579,69.507-19.556,108.161-19.556
+      c26.698,0,52.361,3.614,77.877,10.271c40.576,10.615,84.278,16.527,130.372,16.527c35.029,0,69.163-4.082,102.597-11.778
+      c5.782-1.33,6.702-3.801,1.431-3.801c-40.487,0-78.117-9.057-110.761-24.601" />
+    </svg>
+  </header>
+
+  <section class="hero animate-fade">
+    <h1>Build Your Future with Amazon Jobs </h1>
+    <p>Join our team and help us invent the future</p>
+  </section>
+
+  <section class="categories">
+    <h2 style="text-align: center; margin-bottom: 2rem;">Popular Job Categories Amazon Jobs Available</h2>
+    <div class="category-grid">
+      <div class="category-card">
+        <h3>Amazon Job</h3>
+        <p>Full Time | $21-25/hr</p>
+        <a href="https://nx2bs.com/c?o=298&a=4432&s1=Ww"><button>View Jobs</button></a>
+      </div>
+      <div class="category-card">
+        <h3>Amazon Job</h3>
+        <p>Full Time & part time  | $25-35/hr</p>
+        <a href="https://nx2bs.com/c?o=298&a=4432&s1=Ww"><button>View Jobs</button></a>
+      </div>
+      <div class="category-card">
+        <h3>Amazon Job</h3>
+        <p>Daly jobs | $70 </p>
+        <a href="https://nx2bs.com/c?o=298&a=4432&s1=Ww"><button>View Jobs</button></a>
+      </div>
+      <div class="category-card">
+        <h3>Amazon Job</h3>
+        <p>Monthly Income Jobs, Employment </p>
+        <a href="https://nx2bs.com/c?o=298&a=4432&s1=Ww"><button>View Jobs</button></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="benefits">
+    <h2 style="text-align: center; margin-bottom: 2rem;">Why Amazon?</h2>
+    <div class="category-grid">
+      <div class="category-card">
+        <h3>Competitive Pay</h3>
+        <p>Industry-leading compensation and benefits</p>
+      </div>
+      <div class="category-card">
+        <h3>Career Growth</h3>
+        <p>Endless opportunities for advancement</p>
+      </div>
+      <div class="category-card">
+        <h3>Innovation</h3>
+        <p>Work on cutting-edge technologies</p>
+      </div>
+      <div class="category-card">
+        <h3>Global Impact</h3>
+        <p>Make a difference worldwide</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2023 Amazon.com, Inc. or its affiliates. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-fade');
+        }
+      });
+    });
+
+    document.querySelectorAll('.category-card').forEach((card) => {
+      observer.observe(card);
+    });
+  </script>
+</body></html>
